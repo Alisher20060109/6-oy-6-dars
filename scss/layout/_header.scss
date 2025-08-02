@@ -1,0 +1,142 @@
+header {
+
+    background-image: url(../../pages/dubay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+    .cle-card {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        justify-content: space-between;
+        backdrop-filter: blur(3px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        // position: fixed;
+        // top: 0;
+        
+        // width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        // backdrop-filter: blur(10px);
+        // z-index: 999;
+
+
+        @media (max-width:910px) {
+            grid-template-columns: auto auto;
+
+            ul {
+                display: none !important;
+            }
+
+            .tuggle {
+                display: block !important;
+            }
+        }
+
+        .tuggle {
+            display: none;
+        }
+
+        .cle_card_logo {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                color: white;
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+#pod {
+    padding-top: 162px;
+    padding-bottom: 205px;
+
+    h1 {
+        font-size: 46px;
+        color: white;
+        line-height: 129%;
+        padding-bottom: 23px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 21px;
+        color: white;
+        line-height: 129%;
+        padding-bottom: 37px;
+    }
+
+    .pod-clas__btn {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        @media(max-width:430px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .clas-btn__2 {
+                display: none !important;
+            }
+
+        }
+
+        .clas-btn__1 {
+            max-width: 260px;
+            padding: 5px;
+            height: 60px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            color: white;
+            transition: 0.3s;
+            backdrop-filter: blur(3px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+            &:hover {
+                background-color: white;
+                color: black;
+                border-radius: 5px;
+
+            }
+        }
+
+        .clas-btn__2 {
+            max-width: 260px;
+            padding: 5px;
+            height: 60px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            color: white;
+            transition: 0.3s;
+            backdrop-filter: blur(3px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+            &:hover {
+                background-color: white;
+                color: black;
+                border-radius: 5px;
+
+            }
+        }
+    }
+}

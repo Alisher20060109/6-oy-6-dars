@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-image: url(../../pages/dubay.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+header .cle-card {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 910px) {
+  header .cle-card {
+    grid-template-columns: auto auto;
+  }
+  header .cle-card ul {
+    display: none !important;
+  }
+  header .cle-card .tuggle {
+    display: block !important;
+  }
+}
+header .cle-card .tuggle {
+  display: none;
+}
+header .cle-card .cle_card_logo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+header .cle-card ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .cle-card ul li {
+  color: white;
+  font-size: 18px;
+}
+
+#pod {
+  padding-top: 162px;
+  padding-bottom: 205px;
+}
+#pod h1 {
+  font-size: 46px;
+  color: white;
+  line-height: 129%;
+  padding-bottom: 23px;
+  text-align: center;
+}
+#pod p {
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  line-height: 129%;
+  padding-bottom: 37px;
+}
+#pod .pod-clas__btn {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+@media (max-width: 430px) {
+  #pod .pod-clas__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #pod .pod-clas__btn .clas-btn__2 {
+    display: none !important;
+  }
+}
+#pod .pod-clas__btn .clas-btn__1 {
+  max-width: 260px;
+  padding: 5px;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+  transition: 0.3s;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#pod .pod-clas__btn .clas-btn__1:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+#pod .pod-clas__btn .clas-btn__2 {
+  max-width: 260px;
+  padding: 5px;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+  transition: 0.3s;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#pod .pod-clas__btn .clas-btn__2:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+#nash {
+  background-image: url(../../pages/2peg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+#nash .nash-card .nash-card_cards1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 125px;
+  gap: 30px;
+}
+@media (max-width: 750px) {
+  #nash .nash-card .nash-card_cards1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+#nash .nash-card .nash-card_cards1 .nash-cards1__1 h1 {
+  font-size: 45px;
+  color: white;
+  padding-bottom: 23px;
+}
+#nash .nash-card .nash-card_cards1 .nash-cards1__1 h3 {
+  font-size: 26px;
+  color: white;
+  padding-bottom: 8px;
+}
+#nash .nash-card .nash-card_cards1 .nash-cards1__1 p {
+  font-size: 16px;
+  color: white;
+}
+
+#nashi {
+  background-image: url(../../pages/3-pag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+#nashi .nashi-card {
+  padding-top: 66px;
+  padding-bottom: 105px;
+}
+#nashi .nashi-card h1 {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#nashi .nashi-card .nashi-card__cartlar {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 54px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 1023px;
+  width: 100%;
+  border-radius: 40px;
+}
+@media (max-width: 750px) {
+  #nashi .nashi-card .nashi-card__cartlar {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+#nashi .nashi-card .nashi-card__cartlar div p {
+  color: white;
+  font-size: 16px;
+}
+
+#odzif {
+  background-image: url(../../pages/4-pag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+#odzif .odzif-card {
+  padding-top: 120px;
+  padding-bottom: 138px;
+}
+#odzif .odzif-card h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  padding-bottom: 55px;
+}
+#odzif .odzif-card .odzif-card__cr {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 54px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 1069px;
+  width: 100%;
+  border-radius: 40px;
+}
+@media (max-width: 750px) {
+  #odzif .odzif-card .odzif-card__cr {
+    grid-template-columns: auto;
+  }
+}
+#odzif .odzif-card .odzif-card__cr .odzif-cr__a p {
+  color: white;
+  font-size: 16px;
+  line-height: 131%;
+  padding-bottom: 64px;
+}
+#odzif .odzif-card .odzif-card__cr .odzif-cr__a h3 {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#odzif .odzif-card .odzif-card__cr .odzif-cr__a h4 {
+  color: rgb(156, 156, 156);
+  font-size: 18px;
+}
+
+#car {
+  background-image: url(../../pages/5-pag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+#car .car-card {
+  padding-top: 85px;
+  padding-bottom: 30px;
+}
+#car .car-card h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  padding-bottom: 45px;
+}
+#car .car-card .car-card__cardlar {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  #car .car-card .car-card__cardlar {
+    grid-template-columns: auto;
+    align-items: center;
+  }
+}
+#car .car-card .car-card__cardlar ul li p {
+  color: white;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

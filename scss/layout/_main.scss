@@ -1,0 +1,191 @@
+#nash {
+    background-image: url(../../pages/2peg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+
+    .nash-card {
+
+
+        .nash-card_cards1 {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 125px;
+            gap: 30px;
+
+            @media(max-width:750px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .nash-cards1__1 {
+                h1 {
+                    font-size: 45px;
+                    color: white;
+                    padding-bottom: 23px;
+                }
+
+                h3 {
+                    font-size: 26px;
+                    color: white;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#nashi {
+    background-image: url(../../pages/3-pag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+    .nashi-card {
+        padding-top: 66px;
+        padding-bottom: 105px;
+
+        h1 {
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .nashi-card__cartlar {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 54px;
+            backdrop-filter: blur(3px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 1023px;
+            width: 100%;
+            border-radius: 40px;
+
+            @media(max-width:750px) {
+                grid-template-columns: repeat(2, auto);
+            }
+
+            div p {
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#odzif {
+    background-image: url(../../pages/4-pag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+    .odzif-card {
+        padding-top: 120px;
+        padding-bottom: 138px;
+
+        h1 {
+            font-size: 45px;
+            color: white;
+            text-align: center;
+            padding-bottom: 55px;
+        }
+
+        .odzif-card__cr {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+            padding: 54px;
+            backdrop-filter: blur(3px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(0, 0, 0, 0.6);
+            max-width: 1069px;
+            width: 100%;
+            border-radius: 40px;
+
+            @media(max-width:750px) {
+
+                grid-template-columns: auto;
+            }
+
+            .odzif-cr__a {
+                p {
+                    color: white;
+                    font-size: 16px;
+                    line-height: 131%;
+                    padding-bottom: 64px;
+                }
+
+                h3 {
+                    color: white;
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                }
+
+                h4 {
+                    color: rgb(156, 156, 156);
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+#car {
+    background-image: url(../../pages/5-pag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+   
+
+    .car-card {
+        padding-top: 85px;
+        padding-bottom: 30px;
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 45px;
+            padding-bottom: 45px;
+        }
+
+        .car-card__cardlar {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            align-items: center;
+            justify-content: space-between;
+
+            @media(max-width:750px) {
+                grid-template-columns: auto;
+                align-items: center;
+            }
+
+            ul li p {
+                color: white;
+                font-size: 18px;
+            }
+        }
+    }
+}
